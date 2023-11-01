@@ -9,13 +9,14 @@ import Signin from './page/Signin'
 import Marketplace from './page/Marketplace'
 import Auction from './page/Auction'
 import Contact from './page/Contact'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 const App = () => {
   return (
     <>
-      <Navbar/>
+      
       {/* <Herosection/> */}
-      <BrowserRouter>
+      <Router>
+      <Navbar/>
       <Routes>
       <Route path="/" element={
       <>
@@ -36,7 +37,7 @@ const App = () => {
       <Auction/>
       <Contact/> */}
       </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   )
 }

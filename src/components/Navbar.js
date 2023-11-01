@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink  } from "react-router-dom";
-// import { NavLink  } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Navbar = () => {
     <NavLink  id="hide-after-click" to="/auction" className="mx-4 text-lg  hover:text-indigo-700  border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500">Auction</NavLink>
     <NavLink  to="/contact" className="mx-4 text-lg border-b-2 border-transparent  hover:text-indigo-700 hover:border-b-2 hover:border-indigo-300 transition duration-500">Help</NavLink>
     <NavLink  id="hide-after-click" to="/login" className="mx-4 text-lg  hover:text-indigo-700  border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500">Login </NavLink>
-    <NavLink  to="/sigin" className="mx-4 text-lg border-b-2 border-transparent hover:text-indigo-700  hover:border-b-2 hover:border-indigo-300 transition duration-500">Register</NavLink>
+    <NavLink  to="/signin" className="mx-4 text-lg border-b-2 border-transparent hover:text-indigo-700  hover:border-b-2 hover:border-indigo-300 transition duration-500">Register</NavLink>
     
 </div>
 
