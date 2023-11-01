@@ -2,6 +2,7 @@ import React from 'react'
 import Image1 from "../image/unspash.avif";
 import Image2 from "../image/blockchain.avif"
 import Image3 from "../image/Suyash.jpg"
+import Image4 from "../image/block.png"
 import Herosection from './Herosection';
 const Solution = () => {
   return (
@@ -18,7 +19,7 @@ const Solution = () => {
       <a
         className="block rounded-xl flex flex-col text-center p-8 shadow-2xl transition hover:border-yellow-800/20 hover:shadow-yellow-400/20"
         href="/services/digital-campaigns">
-       <img src={Image2} className='w-[80%] h-[18rem] ml-auto mr-auto' alt="" />
+       <img src={Image1} className='w-[80%] h-[18rem] ml-auto mr-auto' alt="" />
 
         <h2 className="mt-4 text-3xl font-bold text-white">Digital campaigns</h2>
 

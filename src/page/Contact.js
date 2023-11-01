@@ -61,7 +61,7 @@ const Contact = () => {
 
 
 <div>
-  <buthrefn type="submit" value="Submit" className="w-full flex justify-center bg-indigo-600  hover:bg-indigo-700 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500">
+  <buthrefn type="submit" value="Submit" className="w-full flex justify-center bg-purple-700  hover:bg-purple-800 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500">
     Send Message
   </buthrefn>
 </div>

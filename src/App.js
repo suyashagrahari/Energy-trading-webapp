@@ -9,11 +9,12 @@ import Signin from './page/Signin'
 import Marketplace from './page/Marketplace'
 import Auction from './page/Auction'
 import Contact from './page/Contact'
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import Form from "../src/components/Form"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 const App = () => {
   return (
     <>
-      
+      {/* <Form/> */}
       {/* <Herosection/> */}
       <Router>
       <Navbar/>

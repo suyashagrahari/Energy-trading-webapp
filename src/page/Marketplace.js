@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
+import Form from "../components/Form"
 import "../index.css"
 const Marketplace = () => {
+  const [status,setStatus] = useState(false);
+
   return (
    <>
-          
+      
 <div className="bg-purple-900 bg-gradient-to-b from-gray-900 via-gray-900 to-purple-800 flex flex-col gap-10 items-center bottom-0 leading-5 h-[100vh] w-full overflow-hidden">
           {/* <!-- component --> */}
+          
           <div className='text-white text-4xl mt-[10rem] font-bold'>
             Market Place
           </div>
@@ -21,15 +25,18 @@ const Marketplace = () => {
                       </svg>
                   </div>
                   <input type="search" id="default-search" className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos..." required/>
-                  <button type="submit" className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                  
+                  <button type="submit" className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-purple-700 dark:hover:bg-purple-800 dark:focus:ring-blue-800">Search</button>
               </div>
           </form>
 
           </div>
+          
 
           <a
-  class="group relative inline-flex items-center overflow-hidden rounded bg-indigo-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
-  href="/download"
+  class="group relative inline-flex items-center overflow-hidden rounded bg-purple-700 px-8 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
+  onClick={()=>setStatus(true)}
+
 >
   <span class="absolute -end-full transition-all group-hover:end-4">
     <svg
@@ -48,11 +55,11 @@ const Marketplace = () => {
     </svg>
   </span>
 
-  <span class="text-sm font-medium transition-all group-hover:me-4">
+  <span class="text-sm font-medium transition-all group-hover:me-4" >
     Add Orders
   </span>
 </a>
-
+{status ? <Form/> : null}
 <div className="md:px-32 py-8 w-full">
   <div className="shadow overflow-hidden  rounded-2xl border-b border-gray-200">
     <table className="min-w-full bg-white">
