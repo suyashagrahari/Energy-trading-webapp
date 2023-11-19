@@ -8,8 +8,8 @@ const Trading = () => {
             <div className=" text-white text-4xl font-extrabold">
                 Why Energy Trading?
             </div>
-            <div className='text-white'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias quaerat laborum voluptas, accusantium repellendus praesentium debitis aspernatur amet tenetur, accusamus assumenda obcaecati voluptate, illum eligendi ea dolorum quia iusto neque ipsam inventore! Recusandae porro voluptate ad deserunt, itaque non!
+            <div className='text-white text-xl'>
+            Energy trading is essential for balancing supply and demand efficiently, managing price volatility, and promoting market competition. It supports risk management, encourages innovation, and contributes to economic growth, while also facilitating global energy flows and environmental goals. Participation in energy trading is often a regulatory requirement and plays a significant role in shaping energy markets and policies.
             </div>
         </div>
     </div>

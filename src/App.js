@@ -11,6 +11,9 @@ import Auction from './page/Auction'
 import Contact from './page/Contact'
 import Form from "../src/components/Form"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Teams from './components/Teams'
+import Footer from './components/Footer'
+import Transaction from "../src/page/Transaction"
 const App = () => {
   return (
     <>
@@ -23,6 +26,7 @@ const App = () => {
       <>
       <Herosection/>
       <Solution/>
+      <Teams/>
       </>
       }/>
       <Route path="/login" element={<Login/>}/>
@@ -30,6 +34,7 @@ const App = () => {
       <Route path="/auction" element={<Auction/>}/>
       <Route path="/market" element={<Marketplace/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/transaction" element={<Transaction/>}/>
       
       {/* <Solution/> */}
       {/* <Login/>
@@ -38,7 +43,9 @@ const App = () => {
       <Auction/>
       <Contact/> */}
       </Routes>
+      <Footer/>
       </Router>
+     
     </>
   )
 }

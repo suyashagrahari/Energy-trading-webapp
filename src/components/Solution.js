@@ -1,6 +1,8 @@
 import React from 'react'
-import Image1 from "../image/unspash.avif";
-import Image2 from "../image/blockchain.avif"
+import ReducedDemand from "../image/reducedDemand.png"
+import Incentives from "../image/incentives2.jpeg"
+import Transparence from "../image/transparence.jpeg"
+import Energy from "../image/energy.jpeg"
 import Image3 from "../image/Suyash.jpg"
 import Image4 from "../image/block.png"
 import Herosection from './Herosection';
@@ -19,49 +21,45 @@ const Solution = () => {
       <a
         className="block rounded-xl flex flex-col text-center p-8 shadow-2xl transition hover:border-yellow-800/20 hover:shadow-yellow-400/20"
         href="/services/digital-campaigns">
-       <img src={Image1} className='w-[80%] h-[18rem] ml-auto mr-auto' alt="" />
+       <img src={ReducedDemand} className='w-[80%] h-[18rem] ml-auto mr-auto rounded-xl' alt=""  />
 
-        <h2 className="mt-4 text-3xl font-bold text-white">Digital campaigns</h2>
+        <h2 className="mt-4 text-3xl font-bold text-white">Reduced Demand</h2>
 
-        <p className="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+        <p className="mt-1 text-m text-gray-300">
+         Demand satisfied by optimal energy allocation
         </p>
       </a>
       <a
         className="block rounded-xl flex flex-col text-center p-8 shadow-2xl transition hover:border-yellow-800/20 hover:shadow-yellow-400/20"
         href="/services/digital-campaigns">
-       <img src={Image2} className='w-[80%] h-[18rem] ml-auto mr-auto' alt="" />
+       <img src={Incentives} className='w-[80%] h-[18rem] ml-auto mr-auto rounded-xl' alt="" />
 
-        <h2 className="mt-4 text-3xl font-bold text-white">Digital campaigns</h2>
+        <h2 className="mt-4 text-3xl font-bold text-white">Incentive</h2>
 
-        <p className="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+        <p className="mt-1 text-m text-gray-300">
+          Second income stream for traders.
         </p>
       </a>
       <a
         className="block rounded-xl flex flex-col text-center p-8 shadow-2xl transition hover:border-yellow-800/20 hover:shadow-yellow-400/20"
         href="/services/digital-campaigns">
-       <img src={Image2} className='w-[80%] h-[18rem] ml-auto mr-auto' alt="" />
+       <img src={Transparence} className='w-[80%] h-[18rem] ml-auto mr-auto rounded-xl' alt="" />
 
-        <h2 className="mt-4 text-3xl font-bold text-white">Digital campaigns</h2>
+        <h2 className="mt-4 text-3xl font-bold text-white">Oversight</h2>
 
-        <p className="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+        <p className="mt-1 text-m text-gray-300">
+          Transparency provided through blockchain
         </p>
       </a>
       <a
         className="block rounded-xl flex flex-col text-center p-8 shadow-2xl transition hover:border-yellow-800/20 hover:shadow-yellow-400/20"
         href="/services/digital-campaigns">
-       <img src={Image2} className='w-[80%] h-[18rem] ml-auto mr-auto' alt="" />
+       <img src={Energy} className='w-[80%] h-[18rem] ml-auto mr-auto rounded-xl' alt="" />
 
-        <h2 className="mt-4 text-3xl font-bold text-white">Digital campaigns</h2>
+        <h2 className="mt-4 text-3xl font-bold text-white">Renewable</h2>
 
-        <p className="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+        <p className="mt-1 text-m text-gray-300">
+          Abundant solar energy available for trading
         </p>
       </a>
       

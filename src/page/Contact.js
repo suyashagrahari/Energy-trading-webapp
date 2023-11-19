@@ -12,7 +12,7 @@ const Contact = () => {
 <div className="self-start hidden lg:flex flex-col  text-white">
 
 <h1 className="mb-3 font-bold text-5xl">Contact us</h1>
-<p className="pr-3 text-white ">Need href get in hrefuch with us? Either fill out the form with your inquiry or find the department email you'd like href contact below.</p>
+<p className="pr-3 text-white ">Don't hesitate to get in touch with us. We're here to assist you and provide the information you need.</p>
 </div>
 </div>
 
@@ -21,7 +21,7 @@ const Contact = () => {
 <div className="p-12 bg-white mx-auhref rounded-2xl w-[26rem] ">
 <div className="mb-4">
   <h3 className="font-semibold text-2xl text-gray-800">Contact Us </h3>
-  <p className="text-gray-500">Enter your information href register</p>
+  <p className="text-gray-500">For all enqueries, please email us using the form below.</p>
 </div>
 <div className="space-y-5">
 

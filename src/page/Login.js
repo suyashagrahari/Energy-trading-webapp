@@ -9,9 +9,7 @@ const Login = () => {
           <div className="self-start hidden lg:flex flex-col  text-gray-300">
             <h1 className="my-3 font-semibold text-4xl">Welcome back</h1>
             <p className="pr-3 text-sm opacity-75">
-              Lorem ipsum is placeholder text commonly used in the graphic,
-              print, and publishing industries for previewing layouts and visual
-              mockups
+            Log in to access your account and explore our services.
             </p>
           </div>
         </div>
